@@ -1,5 +1,5 @@
 # Non-Autoregressive Sequence Generation
-Tutorial @ [ACL 2022](https://www.2022.aclweb.org/), May 22-27, 2022
+Tutorial @ [ACL 2022](https://www.2022.aclweb.org/tutorials), May 22, 2022
 
 
 ## Speakers
@@ -19,7 +19,7 @@ Non-autoregressive sequence generation (NAR) attempts to generate the entire or 
       1.2 Evaluation protocol 
       1.3 Multi-modality problem 
       
-    PART 2  Methods  (~ 90 minutes) 
+    PART 2  Methods  (~ 80 minutes) 
       2.1 Model architectures 
           2.1.1  Fully NAR models 
           2.1.2  Iteration-based NAR models 
@@ -32,24 +32,22 @@ Non-autoregressive sequence generation (NAR) attempts to generate the entire or 
       2.3 Training data 
       2.4 Learning paradigms 
           2.4.1  Curriculum learning 
-          2.4.2  Adversarial training 
-          2.4.3  Self-supervised pre-training 
+          2.4.2  Self-supervised pre-training 
       2.5 Inference methods and tricks 
       
-    PART 3  Applications  (~ 50 minutes) 
-      3.1 Text generation 
-          3.1.1  Neural machine translation 
-          3.1.2  Text summarization 
-          3.1.3  Text error correction 
-          3.1.4  Automatic speech recognition 
-      3.2 Speech generation 
-          3.2.1  Text to speech 
-          3.2.2  Voice conversion 
-      3.3 Advanced topics in applications 
-          3.3.1   Advanced length prediction 
-          3.3.2  Alignment (duration vs attention)
-          3.3.3  Target token dependency
-          3.3.4  Relationship with streaming
+    PART 3  Applications  (~ 60 minutes) 
+      3.1 Task overview in text/speech/image generation
+      3.2 NAR generation tasks     
+          3.2.1  Neural machine translation   
+          3.2.2  Text error correction
+          3.2.3  Automatic speech recognition  
+          3.2.4  Text to speech / singing voice synthesis
+          3.2.5  Image (pixel/token) generation 
+      3.3 Summary of NAR Applications  
+          3.3.1  Benefits of NAR for different tasks
+          3.3.2  Addressing target-target/source dependency 
+          3.3.3  Data difficulty vs model capacity
+          3.3.4  Streaming vs NAR, AR vs iterative NAR
           
     PART 4  Open problems, future directions, Q\&A  (~ 20 minutes)
     
