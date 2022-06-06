@@ -52,6 +52,6 @@ Non-autoregressive sequence generation (NAR) attempts to generate the entire or 
     PART 4  Open problems, future directions, Q\&A  (~ 20 minutes)
     
 ## Materials
-[Slides](https://github.com/NAR-tutorial/acl2022/blob/main/Non-autoregressive%20Sequence%20Generation%E2%80%94%E2%80%94ACL%202022.pdf)<br>
+[Slides](https://nar-tutorial.github.io/acl2022/NAR-ACL%202022.pdf)<br>
 
 
